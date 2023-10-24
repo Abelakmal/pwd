@@ -100,5 +100,52 @@
 // // Expected output: "lazy"
 
 //replace
-const words = "hello purwadhika"
-console.log(words.replace('purwadhika', 'batam'))
+// const words = "hello purwadhika purwadhika"
+// console.log(words.replace('purwadhika', 'batam'));
+// console.log(words.replaceAll('purwadhika', 'batam'));
+
+//toLowerase & toUpperCase
+
+// const kata = 'AKU';
+// console.log(kata.toLowerCase())
+// console.log(kata.toUpperCase())
+
+// //concat
+// const str1 = 'Hello';
+// const str2 = 'World';
+
+// console.log(str1.concat(' ', str2));
+// // Expected output: "Hello World"
+
+// console.log(str2.concat(', ', str1));
+
+// const str = 'The quick brown fox jumps over the lazy dog.';
+
+// const words = str.split(' ');
+// console.log(words[3]);
+// // Expected output: "fox"
+
+// const chars = str.split('');
+// console.log(chars[8]);
+// // Expected output: "k"
+
+// const strCopy = str.split();
+// console.log(strCopy);
+// // Expected output: Array ["The quick brown fox jumps over the lazy dog."]
+
+
+// index of
+
+// const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+
+// const searchTerm = 'dog';
+// const indexOfFirst = paragraph.indexOf(searchTerm);
+
+// console.log(indexOfFirst);
+
+// console.log(paragraph.indexOf(searchTerm, indexOfFirst + 1));
+// // Expected output: "The index of the 2nd "dog" is 52"
+
+// const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?'; 
+// const search = 'dog';
+// console.log(paragraph.includes(search))
