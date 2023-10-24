@@ -61,4 +61,44 @@
 
 // let data = ["abel","akmal"];
 
+//Immuutable vs mutable
 
+// //mutable type data primitive
+// let a = "sa"
+// let b = a;
+
+// b = "ta"
+
+// console.log(a)
+// console.log(b)
+
+// //immutable type data non primitive
+// const person1 = {name:"abel"}
+// const person2 = person1;
+// person2.name = 'a'
+// person2.umur = 18
+
+// console.log(person1)
+// console.log(person2)
+
+// string build method
+
+//slice
+
+// const str = 'The quick brown fox jumps over the lazy dog.';
+
+// console.log(str.slice(31));
+// // Expected output: "the lazy dog."
+
+// console.log(str.slice(4, 19));
+// // Expected output: "quick brown fox"
+
+// console.log(str.slice(-4));
+// // Expected output: "dog."
+
+// console.log(str.slice(-9, -5));
+// // Expected output: "lazy"
+
+//replace
+const words = "hello purwadhika"
+console.log(words.replace('purwadhika', 'batam'))
