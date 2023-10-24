@@ -149,3 +149,24 @@
 // const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?'; 
 // const search = 'dog';
 // console.log(paragraph.includes(search))
+
+//toString
+
+//number met
+
+// let number = 100;
+
+// number.toString;
+// String(number)
+
+// const angka  = 124.82;
+
+// console.log(angka.toFixed()) 
+
+// let ns = "22840jsdu";
+// console.log("ba"+Number(ns)+"a");
+
+//date set 
+// const data = new Date();
+
+// console.log(data.get)
