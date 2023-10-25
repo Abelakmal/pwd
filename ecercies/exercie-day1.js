@@ -52,8 +52,9 @@ const setHari = 400;
 const tahun = Math.floor(setHari / 365)
 const sisaHariDalamTahun = 400 % 365;
 
-const bulan = Math.floor(sisaHariDalamTahun / 31)
-const sisaHariDalamBulan = sisaHariDalamTahun % 31;
+const bulan = Math.floor(sisaHariDalamTahun / 30)
+
+const sisaHariDalamBulan = sisaHariDalamTahun % 30;
 
 const hari = sisaHariDalamBulan;
 
